@@ -1,9 +1,4 @@
-if __name__ == "__main__":
-  while True:
-    
-    print("Let's start with your name: ")
-    name = input()
-    print("Good luck, " +name+ ".")
+# FUNCTIONS
    
 # Instructions on how to play
 
@@ -16,3 +11,8 @@ if __name__ == "__main__":
 
 
 # Options select
+
+
+
+# MAIN CODE
+
