@@ -11,7 +11,8 @@
 
 
 # Options select
-
+def option_select():
+    pass
 
 
 # MAIN CODE
