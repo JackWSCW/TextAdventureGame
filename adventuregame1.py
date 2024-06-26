@@ -50,9 +50,32 @@ def option_select():
         print ("You have drowned")
         quit()
 
+#choose to take kit
 def option_select2():
+    pass
 
-
+#choose to save man 
 def option_select3():
     
+    print("you get wood near by and start making a fire")
+    time.sleep(2)
+    print("injured man asks you if he should build a shelter for the night")
+    screnio3 = input ("yes he should(a),no hes injured(b)")
+    if screnio3=="a".upper:
+        print("he attemps to build the shelter but falls into a prickly bush and fails to build the shelter.")
+        time.sleep(4) 
+        print("you pull him out the bush and he terribly injured")
+        time.sleep(4)
+        print("your really tired so you grabs some big leafs and cover yourself and the injured man and go to sleep")
+    elif screnio3=="b".upper:
+        print("you finish the fire and after work on making a shelter")
+        time.sleep(3)
+        print("an hour goes by and your really tried but you finish building a shelter and go to sleep" )
+    else:
+        print ("Invalid response! you fall and hit your head on a rock!")
+        time.sleep(2)
+        print ("You have dead")
+        quit()
+
+
 # MAIN CODE
