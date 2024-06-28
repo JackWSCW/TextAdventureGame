@@ -67,7 +67,7 @@ def option_select2():
         print ("...")
         time.sleep(2.5)
         print ("You have managed to grab two suitcases foating on the surface, and start to swim back to the island with them dragging beside you on the surface.")
-        print ("The sun is starting to set however, and you arn't even half way back to the island, the water is starting to become freezing, and your muscles are fatiged.")
+        print ("The sun is starting to set however, and you aren't even half way back to the island, the water is starting to become freezing, and your muscles are fatiged.")
         time.sleep(2.5)
         print ("You notice you head is dipping below the surface, you are starting to become very tired and cold.")
         time.sleep(2.5)
@@ -75,18 +75,73 @@ def option_select2():
         time.sleep(2.5)
         print ("All of a sudden you feel an array of sharp teeth bite your foot, then drag you under the water, you can't fight back, its the end...")
         print ("You have been eaten by a shark")
+        time.sleep(3.5)
         quit()
     elif scenario2 == "b":
         print("You start looking around for fallen tress to make a shelter for the night")
         time.sleep(2.5)
-        print ("30 minutes later you have a small makeshift shelter, and now you start working on a fire.")
+        print ("30 minutes later you have a small makeshift shelter, and now you start working on a fire for warmth.")
+        time.sleep(3)
+        print ("You have managed to make a friction fire with some dead branches and sticks, the fire has been constantly burning for a while now into the night, so you lay down on your side to try and get some rest for tomorrow")
+        time.sleep(3)
+        print ("...")
+        time.sleep(3)
+        print ("You wake up to a bright beam of sunlight in your face.")
+        time.sleep(2)
+        print ("The fire has gone out now and only a small amount of smoke remains rising from the ground.")
+        time.sleep(3.5)
+        print ("wait...")
+        time.sleep(2.5)
+        print ("Do you hear that?")
+        time.sleep.(2)
+        print ("It sounds like a plane in the distance!")
+        time.sleep(2.5)
+        print ("Hold on a second..")
+        time.sleep (2.5)
+        print ("It's a small water plane flying right towards the island!")
+        time.sleep(2)
+        print ("Quick, you have to draw attention so they see you!")
+        option_select4()
     else:
         print ("Invalid response, what were you thinking?")
+        time.sleep(3.5)
         quit()
 
 
 # chose to save the man
 def option_select3():
     pass
+
+def option_select4():
+    scenario3 = input ("You have to do something! (a)run to the beach, throw sand around, jump, and yell, or (b)try and start the fire real quick so the smoke is seen") 
+    if scenario3 == "a"
+        print ("You run down to the beach, yelling, jumping, and throwing sand around in the air")
+        time.sleep(3)
+        print ("The plane continues to fly past, devistated you collapse on the sand and wonder what to do next")
+        time.sleep(3.5)
+        print ("...")
+        time.sleep(3.5)
+        print ("Wait, you hear the plane comes back, you stand up and see it descenting towards the water on your side of the beach")
+        time.sleep(3)
+        print ("Here!! You shout. The pilot has come to save you")
+        time.sleep(3.5)
+        print ("Congratulations!!! You have been Saved, and Won the Game!!!")
+        time.sleep(4)
+        quit()
+    elif scenario3 == "b"
+        print ("You manage to light the fire, but it is still only very small, and there is not much smoke, so you try and shout out..")
+        time.sleep(3.5)
+        print ("You failed to get their attention")
+        print ("That was your only hope, now days have gone past and you have had no food or water")
+        time.sleep(3)
+        print ("On the 6th day you die eating some poisonous berries from a bush")
+        quit()
+    else:
+        print ("Invalid response, come on! What were you thinking now the plane flew past.")
+        time.sleep(2.5)
+        print ("Unfortunatly while you were daydreaming you were eaten by a wild hog")
+        quit()
+
 # MAIN CODE
 
+option_select():
