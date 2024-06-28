@@ -3,12 +3,29 @@ import time
 # FUNCTIONS
    
 # Instructions on how to play
-
-
+def instructions():
+print ("How to play") 
+time.sleep(3) 
+print ("You will have to make decisions with the multiple options you are given,some options will be good and help you survive on the island, other options will be bad and if you pick too many you can die. Your objective is to make it of the island alive.")
+time.sleep(3)
 
 
 # Introduce the setting
-
+def setting():
+    time.sleep(3) # wait 3 seconds
+    print("*Alarm sounds*")
+    time.sleep(3) # wait 3 seconds
+    print("*muffled dialouge comes out the speakers*")
+    time.sleep(3) # wait 3 seconds
+    print("Brace for impact - says the Pilot")
+    time.sleep(3) # wait 3 seconds
+    print(". . . ")
+    time.sleep(3) # wait 3 seconds
+    print("The plane has crashed")
+    time.sleep(2) # wait 2 seconds
+    print("your ears are ringing")
+    time.sleep(1.5) # wait 1.5 seconds
+    print("you have to get up and escape before the plane sinks")
 
 
 
@@ -110,7 +127,7 @@ def option_select2():
 
 # chose to save the man
 def option_select3():
-    pass
+    print ("...")
 
 def option_select4():
     scenario3 = input ("You have to do something! (a)run to the beach, throw sand around, jump, and yell, or (b)try and start the fire real quick so the smoke is seen") 
@@ -143,5 +160,5 @@ def option_select4():
         quit()
 
 # MAIN CODE
-
-option_select():
+ option_select()
+ 
