@@ -4,10 +4,10 @@ import time
    
 # Instructions on how to play
 def instructions():
-print ("How to play") 
-time.sleep(3) 
-print ("You will have to make decisions with the multiple options you are given,some options will be good and help you survive on the island, other options will be bad and if you pick too many you can die. Your objective is to make it of the island alive.")
-time.sleep(3)
+    print ("How to play") 
+    time.sleep(3) 
+    print ("You will have to make decisions with the multiple options you are given,some options will be good and help you survive on the island, other options will be bad and if you pick too many you can die. Your objective is to make it of the island alive.")
+    time.sleep(3)
 
 
 # Introduce the setting
@@ -110,7 +110,7 @@ def option_select2():
         print ("wait...")
         time.sleep(2.5)
         print ("Do you hear that?")
-        time.sleep.(2)
+        time.sleep(2)
         print ("It sounds like a plane in the distance!")
         time.sleep(2.5)
         print ("Hold on a second..")
@@ -131,7 +131,7 @@ def option_select3():
 
 def option_select4():
     scenario3 = input ("You have to do something! (a)run to the beach, throw sand around, jump, and yell, or (b)try and start the fire real quick so the smoke is seen") 
-    if scenario3 == "a"
+    if scenario3 == "a":
         print ("You run down to the beach, yelling, jumping, and throwing sand around in the air")
         time.sleep(3)
         print ("The plane continues to fly past, devistated you collapse on the sand and wonder what to do next")
@@ -145,7 +145,7 @@ def option_select4():
         print ("Congratulations!!! You have been Saved, and Won the Game!!!")
         time.sleep(4)
         quit()
-    elif scenario3 == "b"
+    elif scenario3 == "b":
         print ("You manage to light the fire, but it is still only very small, and there is not much smoke, so you try and shout out..")
         time.sleep(3.5)
         print ("You failed to get their attention")
@@ -160,5 +160,5 @@ def option_select4():
         quit()
 
 # MAIN CODE
- option_select()
+ 
  
