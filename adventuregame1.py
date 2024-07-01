@@ -1,5 +1,4 @@
 import time
- 
 # FUNCTIONS
    
 # Instructions on how to play
@@ -160,5 +159,4 @@ def option_select4():
         quit()
 
 # MAIN CODE
- 
  
